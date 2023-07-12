@@ -1,4 +1,48 @@
-.banner {
-    display: flex;
+
+/* header start */
+.header{
     background: rgba(229, 84, 115, 0.10);
 }
+.banner {
+    display: flex;
+   padding: 50px 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-txt{
+    
+}
+.banner-greeting{
+    /* display: flex; */
+width: 708px;
+flex-direction: column;
+flex-shrink: 0;
+color: #272727;
+font-family: Lato;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;    
+}
+.banner img{
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+    
+}
+p{
+   
+}
+.btn-primary{display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+background: #E55473;
+text-decoration: none;
+color: white;
+}
+
+/* header end  */
